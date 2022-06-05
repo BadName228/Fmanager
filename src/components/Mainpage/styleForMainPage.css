@@ -1,0 +1,71 @@
+.MAINPAGE {
+    box-sizing: border-box;
+    background-color: white;
+    width: 100%;
+}
+p {
+    margin: 0px;
+}
+.headerInformation {
+    display: flex;
+    color: rgb(76, 96, 145);
+    height: 25px;
+    box-sizing: border-box;
+    font-size: 17px;
+    margin-bottom: 3px;
+}
+.name {
+    box-sizing: border-box;
+    padding-left: 15px;
+    width: 500px;
+    border-right: 1px solid rgb(76, 96, 145);
+}
+.dle {
+    box-sizing: border-box;
+    padding-left: 15px;
+    width: 200px;
+    border-right: 1px solid rgb(76, 96, 145);
+}
+.type {
+    box-sizing: border-box;
+    padding-left: 15px;
+    width: 100px;
+    border-right: 1px solid rgb(76, 96, 145);
+}
+.size {
+    box-sizing: border-box;
+    padding-left: 15px;
+    width: 100px;
+    border-right: 1px solid rgb(76, 96, 145);
+}
+
+.MPFolder {
+    box-sizing: border-box;
+    display: flex;
+    height: 25px;
+}
+.MPname {
+    box-sizing: border-box;
+    padding-left: 15px;
+    margin-bottom: 5px;
+    width: 500px;
+}
+
+.MPfileDLE {
+    box-sizing: border-box;
+    padding-left: 15px;
+    width: 200px;
+}
+.MPfileType {
+    box-sizing: border-box;
+    width: 100px;
+    padding-left: 15px;
+}
+.MPfileSize {
+    box-sizing: border-box;
+    width: 150px;
+    padding-left: 15px;
+}
+.MPFolder:hover {
+    background-color: silver;
+}

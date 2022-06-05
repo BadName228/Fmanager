@@ -1,0 +1,83 @@
+.SettinMenuMainPage {
+    background: linear-gradient(rgb(243, 243, 243), rgb(177, 177, 177)) ;
+    height: 40px;
+    box-sizing: border-box;
+    padding-top: 4px;
+    padding-left: 3px;
+    padding-right: 3px;
+}
+.SettinMenuPanel {
+    box-sizing: border-box;
+    width: 100%;
+    height: 32px;
+    display:inline-flex;
+}
+
+.firsPanel {
+    margin: 0px;
+}
+.SecondPanel, .threePanel, .fourPanel {
+    margin-left: 10px;
+}
+
+.StrelkaForward, .addCard, .cheked, .setting {
+    width: 33px;
+    height: 100%;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+    border: 1px  solid grey;
+    background-color: white;
+    box-sizing: border-box;
+}
+
+.StrelkaBack, .save, .questions, .info {
+    background-color: white;
+    width: 33px;
+    height: 100%;
+    border: 1px  solid grey;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+.StrelkaBack:active, .addCard:active, .StrelkaForward:active, .addFile:active, .cheked:active, .info:active, .save:active, .setting:active, .questions:active {
+    background-color: grey;
+}
+.addFile {
+    width: 33px;
+    border-radius: 0px;
+    height: 32px;
+    border: 1px  solid grey;
+    box-sizing: border-box;
+    background-color: white;
+}
+.Searchpanel {
+    float: right;
+    position: inherit;
+}
+.searchInput {
+    margin-left: 10px;
+    width: 100px;
+    height: 32px;
+    border-radius: 6px;
+    border: 1px solid grey;
+    box-sizing: border-box;
+    padding-left: 30px;
+    transition: width ease 0.2s;
+}
+.searchInput:focus {
+    width: 300px;
+}
+.search {
+    height: 26px;
+    width: 26px;
+    position: absolute;
+    margin-left: 14px;
+    border: none;
+    margin-top: 3px;
+    background-color: white;
+    border-radius: 13px;
+    box-sizing: border-box;
+    padding-top: 4px;
+}
+.search:active {
+    background-color: grey;
+}
